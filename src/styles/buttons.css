@@ -13,7 +13,7 @@
     outline:none;
 
 	/* background */
-	background: url("img/button.png") no-repeat no-repeat;
+	background: url("../rpg/button.png") no-repeat no-repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
@@ -34,28 +34,28 @@
 }
 
 /* button hover */
-.rpgui-button.hover,
+.rpgui-button, .hover,
 .rpgui-button:hover {
 
-	background-image: url("img/button-hover.png");
+	background-image: url("../rpg/button-hover.png");
 
 }
 
 /* button clicked */
-.rpgui-button.down,
+.rpgui-button, .down,
 .rpgui-button:active {
 
-	background-image: url("img/button-down.png");
+	background-image: url("../rpg/button-down.png");
 }
 
 /* golden button stuff */
-.rpgui-button.golden p
+.rpgui-button, .golden p
 {
     display: inline-block
 }
 
 /* golden button style */
-.rpgui-button.golden {
+.rpgui-button, .golden {
 
 	/* hide button default stuff */
 	background-color: Transparent;
@@ -65,7 +65,7 @@
     outline:none;
 
 	/* background */
-	background: url("img/button-golden.png") no-repeat no-repeat;
+	background: url("../rpg/button-golden.png") no-repeat no-repeat;
 	background-clip: padding-box;
 	background-origin: padding-box;
 	background-position: center;
@@ -85,20 +85,20 @@
 }
 
 /* button hover */
-.rpgui-button.golden.hover,
-.rpgui-button.golden:hover {
+.rpgui-button, .golden.hover,
+.rpgui-button, .golden:hover {
 
-	background-image: url("img/button-golden-hover.png");
+	background-image: url("../rpg/button-golden-hover.png");
 }
 
 /* button clicked */
-.rpgui-button.golden.down,
-.rpgui-button.golden:active {
+.rpgui-button,.golden.down,
+.rpgui-button,.golden:active {
 
-	background-image: url("img/button-golden-down.png");
+	background-image: url("../rpg/button-golden-down.png");
 }
 
-.rpgui-button.golden:before
+.rpgui-button, .golden :before
 {
 
     white-space: nowrap;
@@ -107,7 +107,7 @@
     width: 34px;
     display: block;
     height: 110%;
-    background: transparent url('img/button-golden-left.png') no-repeat right center;
+    background: transparent url('../rpg/button-golden-left.png') no-repeat right center;
     background-size: 100% 100%;
     margin: 0 0 0 0;
     left: 0px;
@@ -116,7 +116,7 @@
     margin-top: -5%;
 }
 
-.rpgui-button.golden:after
+.rpgui-button, .golden:after
 {
 
     white-space: nowrap;
@@ -124,7 +124,7 @@
     content: "";
     width: 34px;
     height: 110%;
-    background: transparent url('img/button-golden-right.png') no-repeat left center;
+    background: transparent url('../rpg/button-golden-right.png') no-repeat left center;
     background-size: 100% 100%;
     margin: 0 0 0 0;
     right: 0px;
